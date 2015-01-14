@@ -1,0 +1,192 @@
+[2015-01-07 11:15:23] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:15:40] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:18:06] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (16).
+The statement has been terminated.
+   at Event.save(EventInfo eventinfo, List`1 imageList) in c:\inetpub\wwwroot\App_Code\Event.cs:line 96
+   at AjaxService.saveEvent(EventInfo eventinfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 434
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 123
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:18:09] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (17).
+The statement has been terminated.
+   at Event.save(EventInfo eventinfo, List`1 imageList) in c:\inetpub\wwwroot\App_Code\Event.cs:line 96
+   at AjaxService.saveEvent(EventInfo eventinfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 434
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 123
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:18:19] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:18:53] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:19:02] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:19:35] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:19:46] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:20:13] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:21:02] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:22:58] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:23:55] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:25:06] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:25:16] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:33:05] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:33:30] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:34:27] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:35:16] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:38:02] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:41:38] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (18).
+The statement has been terminated.
+   at News.createNews(NewsInfo articleInfo, List`1 imageList, List`1 fileList) in c:\inetpub\wwwroot\App_Code\News.cs:line 116
+   at AjaxService.createNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 724
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 344
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:41:40] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (19).
+The statement has been terminated.
+   at News.createNews(NewsInfo articleInfo, List`1 imageList, List`1 fileList) in c:\inetpub\wwwroot\App_Code\News.cs:line 116
+   at AjaxService.createNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 724
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 344
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:43:20] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:43:23] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:43:25] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (7).
+The statement has been terminated.
+   at CareerOpportunity.update(CareerOpportunityInfo careeroppty) in c:\inetpub\wwwroot\App_Code\CareerOpportunity.cs:line 150
+   at AjaxService.updateCareerOpportunity(CareerOpportunityInfo careerOpportunityInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 524
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 338
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:50:22] [Exception]: Object reference not set to an instance of an object.
+   at AjaxService.updateNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 786
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 347
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:50:25] [Exception]: Object reference not set to an instance of an object.
+   at AjaxService.updateNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 786
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 347
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:50:27] [Exception]: Object reference not set to an instance of an object.
+   at AjaxService.updateNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 786
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 347
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:51:00] [Exception]: Object reference not set to an instance of an object.
+   at AjaxService.updateNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 786
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 347
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:51:10] [Exception]: Object reference not set to an instance of an object.
+   at AjaxService.updateNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 786
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 347
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:51:24] [Exception]: Object reference not set to an instance of an object.
+   at AjaxService.updateNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 786
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 347
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:55:14] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (20).
+The statement has been terminated.
+   at Event.save(EventInfo eventinfo, List`1 imageList) in c:\inetpub\wwwroot\App_Code\Event.cs:line 96
+   at AjaxService.saveEvent(EventInfo eventinfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 434
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 123
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:55:16] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (21).
+The statement has been terminated.
+   at Event.save(EventInfo eventinfo, List`1 imageList) in c:\inetpub\wwwroot\App_Code\Event.cs:line 96
+   at AjaxService.saveEvent(EventInfo eventinfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 434
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 123
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-07 11:55:23] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (22).
+The statement has been terminated.
+   at Event.save(EventInfo eventinfo, List`1 imageList) in c:\inetpub\wwwroot\App_Code\Event.cs:line 96
+   at AjaxService.saveEvent(EventInfo eventinfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 434
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 123
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
