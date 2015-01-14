@@ -1,0 +1,46 @@
+[2014-09-29 18:02:07] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at Event.save(EventInfo eventinfo, List`1 imageList) in c:\inetpub\wwwroot\App_Code\Event.cs:line 77
+   at AjaxService.saveEvent(EventInfo eventinfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 319
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 113
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-09-29 18:02:09] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at Event.save(EventInfo eventinfo, List`1 imageList) in c:\inetpub\wwwroot\App_Code\Event.cs:line 77
+   at AjaxService.saveEvent(EventInfo eventinfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 319
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 113
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-09-29 18:22:35] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DatabaseAccess.select(String sql, Dictionary`2 dict) in c:\inetpub\wwwroot\App_Code\Utility\DatabaseAccess.cs:line 111
+   at File.UploadFile(FileInfo fileInfo, List`1 directories, Byte[] fileContent) in c:\inetpub\wwwroot\App_Code\File.cs:line 147
+   at AjaxService.uploadFile() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 685
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 242
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-09-29 18:38:24] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at News.createNews(NewsInfo articleInfo, List`1 imageList) in c:\inetpub\wwwroot\App_Code\News.cs:line 72
+   at AjaxService.createNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 540
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 236
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-09-29 18:38:35] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at News.createNews(NewsInfo articleInfo, List`1 imageList) in c:\inetpub\wwwroot\App_Code\News.cs:line 72
+   at AjaxService.createNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 540
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 236
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
