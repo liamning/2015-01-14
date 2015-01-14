@@ -1,0 +1,8 @@
+[2014-09-26 15:19:56] [Exception]: The server is not operational.
+
+[2014-09-26 15:19:56] [Exception]:    at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindAll()
+   at AccessControlModule.getADInfo(String loginName, String sid, String& email, String& fullName) in c:\inetpub\wwwroot\App_Code\HttpModule\AccessControlModule.cs:line 44
