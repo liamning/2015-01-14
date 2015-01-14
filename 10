@@ -1,0 +1,28 @@
+[2014-11-12 10:36:30] [Exception]: Object reference not set to an instance of an object.
+   at AjaxService.updateNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 661
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 271
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-11-12 10:36:35] [Exception]: Object reference not set to an instance of an object.
+   at AjaxService.updateNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 661
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 271
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-11-12 18:32:42] [Exception]: Incorrect syntax near ','.
+   at Training.update(TrainingInfo traininginfo, Boolean resetAttendance, String deletedFormID) in c:\inetpub\wwwroot\App_Code\Training.cs:line 319
+   at AjaxService.updateTraining(TrainingInfo trainingInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 474
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 264
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-11-12 18:32:49] [Exception]: Incorrect syntax near ','.
+   at Training.update(TrainingInfo traininginfo, Boolean resetAttendance, String deletedFormID) in c:\inetpub\wwwroot\App_Code\Training.cs:line 319
+   at AjaxService.updateTraining(TrainingInfo trainingInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 474
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 264
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-11-12 18:33:03] [Exception]: Incorrect syntax near ','.
+   at Training.update(TrainingInfo traininginfo, Boolean resetAttendance, String deletedFormID) in c:\inetpub\wwwroot\App_Code\Training.cs:line 319
+   at AjaxService.updateTraining(TrainingInfo trainingInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 474
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 264
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-11-12 18:33:12] [Exception]: Incorrect syntax near ','.
+   at Training.update(TrainingInfo traininginfo, Boolean resetAttendance, String deletedFormID) in c:\inetpub\wwwroot\App_Code\Training.cs:line 319
+   at AjaxService.updateTraining(TrainingInfo trainingInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 474
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 264
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
