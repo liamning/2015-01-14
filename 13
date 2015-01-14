@@ -1,0 +1,141 @@
+[2015-01-13 16:44:53] [Exception]: Violation of PRIMARY KEY constraint 'PK_NewIconControl'. Cannot insert duplicate key in object 'dbo.NewIconControl'. The duplicate key value is (8).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DatabaseAccess.update(String sql, Dictionary`2 dict) in c:\inetpub\wwwroot\App_Code\Utility\DatabaseAccess.cs:line 76
+   at Training.save(TrainingInfo traininginfo) in c:\inetpub\wwwroot\App_Code\Training.cs:line 148
+   at AjaxService.saveTraining(TrainingInfo trainingInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 494
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 276
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 16:46:11] [Exception]: An item with the same key has already been added.
+   at Training.update(TrainingInfo traininginfo, Boolean resetAttendance, String deletedFormID) in c:\inetpub\wwwroot\App_Code\Training.cs:line 362
+   at AjaxService.updateTraining(TrainingInfo trainingInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 508
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 286
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 16:46:17] [Exception]: An item with the same key has already been added.
+   at Training.update(TrainingInfo traininginfo, Boolean resetAttendance, String deletedFormID) in c:\inetpub\wwwroot\App_Code\Training.cs:line 362
+   at AjaxService.updateTraining(TrainingInfo trainingInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 508
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 286
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 16:46:22] [Exception]: An item with the same key has already been added.
+   at Training.update(TrainingInfo traininginfo, Boolean resetAttendance, String deletedFormID) in c:\inetpub\wwwroot\App_Code\Training.cs:line 362
+   at AjaxService.updateTraining(TrainingInfo trainingInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 508
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 286
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 16:46:49] [Exception]: Incorrect syntax near ','.
+   at Training.update(TrainingInfo traininginfo, Boolean resetAttendance, String deletedFormID) in c:\inetpub\wwwroot\App_Code\Training.cs:line 362
+   at AjaxService.updateTraining(TrainingInfo trainingInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 508
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 286
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 16:46:53] [Exception]: Incorrect syntax near ','.
+   at Training.update(TrainingInfo traininginfo, Boolean resetAttendance, String deletedFormID) in c:\inetpub\wwwroot\App_Code\Training.cs:line 362
+   at AjaxService.updateTraining(TrainingInfo trainingInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 508
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 286
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 16:47:02] [Exception]: Incorrect syntax near ','.
+   at Training.update(TrainingInfo traininginfo, Boolean resetAttendance, String deletedFormID) in c:\inetpub\wwwroot\App_Code\Training.cs:line 362
+   at AjaxService.updateTraining(TrainingInfo trainingInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 508
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 286
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 16:47:12] [Exception]: Incorrect syntax near ','.
+   at Training.update(TrainingInfo traininginfo, Boolean resetAttendance, String deletedFormID) in c:\inetpub\wwwroot\App_Code\Training.cs:line 362
+   at AjaxService.updateTraining(TrainingInfo trainingInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 508
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 286
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 16:47:18] [Exception]: Incorrect syntax near ','.
+   at Training.update(TrainingInfo traininginfo, Boolean resetAttendance, String deletedFormID) in c:\inetpub\wwwroot\App_Code\Training.cs:line 362
+   at AjaxService.updateTraining(TrainingInfo trainingInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 508
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 286
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 16:47:27] [Exception]: Incorrect syntax near ','.
+   at Training.update(TrainingInfo traininginfo, Boolean resetAttendance, String deletedFormID) in c:\inetpub\wwwroot\App_Code\Training.cs:line 362
+   at AjaxService.updateTraining(TrainingInfo trainingInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 508
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 286
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 16:48:06] [Exception]: Incorrect syntax near ','.
+   at Training.update(TrainingInfo traininginfo, Boolean resetAttendance, String deletedFormID) in c:\inetpub\wwwroot\App_Code\Training.cs:line 362
+   at AjaxService.updateTraining(TrainingInfo trainingInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 508
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 286
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 16:48:16] [Exception]: Incorrect syntax near ','.
+   at Training.update(TrainingInfo traininginfo, Boolean resetAttendance, String deletedFormID) in c:\inetpub\wwwroot\App_Code\Training.cs:line 362
+   at AjaxService.updateTraining(TrainingInfo trainingInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 508
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 286
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 16:48:20] [Exception]: Incorrect syntax near ','.
+   at Training.update(TrainingInfo traininginfo, Boolean resetAttendance, String deletedFormID) in c:\inetpub\wwwroot\App_Code\Training.cs:line 362
+   at AjaxService.updateTraining(TrainingInfo trainingInfo) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 508
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 286
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 18:02:59] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at News.createNews(NewsInfo articleInfo, List`1 imageList, List`1 fileList) in c:\inetpub\wwwroot\App_Code\News.cs:line 116
+   at AjaxService.createNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 724
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 344
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 18:03:06] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at News.createNews(NewsInfo articleInfo, List`1 imageList, List`1 fileList) in c:\inetpub\wwwroot\App_Code\News.cs:line 116
+   at AjaxService.createNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 724
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 344
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 18:03:38] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at News.createNews(NewsInfo articleInfo, List`1 imageList, List`1 fileList) in c:\inetpub\wwwroot\App_Code\News.cs:line 116
+   at AjaxService.createNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 724
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 344
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 18:04:04] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at News.createNews(NewsInfo articleInfo, List`1 imageList, List`1 fileList) in c:\inetpub\wwwroot\App_Code\News.cs:line 116
+   at AjaxService.createNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 724
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 344
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 18:04:23] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at News.createNews(NewsInfo articleInfo, List`1 imageList, List`1 fileList) in c:\inetpub\wwwroot\App_Code\News.cs:line 116
+   at AjaxService.createNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 724
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 344
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 18:05:02] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at News.createNews(NewsInfo articleInfo, List`1 imageList, List`1 fileList) in c:\inetpub\wwwroot\App_Code\News.cs:line 116
+   at AjaxService.createNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 724
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 344
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 18:05:21] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at News.createNews(NewsInfo articleInfo, List`1 imageList, List`1 fileList) in c:\inetpub\wwwroot\App_Code\News.cs:line 116
+   at AjaxService.createNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 724
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 344
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 18:05:46] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at News.createNews(NewsInfo articleInfo, List`1 imageList, List`1 fileList) in c:\inetpub\wwwroot\App_Code\News.cs:line 116
+   at AjaxService.createNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 724
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 344
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 18:06:40] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at News.createNews(NewsInfo articleInfo, List`1 imageList, List`1 fileList) in c:\inetpub\wwwroot\App_Code\News.cs:line 116
+   at AjaxService.createNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 724
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 344
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 18:09:36] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at News.createNews(NewsInfo articleInfo, List`1 imageList, List`1 fileList) in c:\inetpub\wwwroot\App_Code\News.cs:line 116
+   at AjaxService.createNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 724
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 344
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2015-01-13 18:11:26] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at News.UpdateNews(NewsInfo articleInfo, List`1 imageListToAdd, Dictionary`2 imageDictToUpdate, Dictionary`2 imageDescDictToUpdate, String imageListToDelete, List`1 fileListToAdd, Dictionary`2 fileDictToUpdate, String fileListToDelete) in c:\inetpub\wwwroot\App_Code\News.cs:line 286
+   at AjaxService.updateNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 961
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 347
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
