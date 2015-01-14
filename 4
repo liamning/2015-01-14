@@ -1,0 +1,196 @@
+[2014-10-07 10:56:17] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DatabaseAccess.select(String sql, Dictionary`2 dict) in c:\inetpub\wwwroot\App_Code\Utility\DatabaseAccess.cs:line 111
+   at File.UploadFile(FileInfo fileInfo, List`1 directories, Byte[] fileContent) in c:\inetpub\wwwroot\App_Code\File.cs:line 147
+   at AjaxService.uploadFile() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 686
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 242
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-07 10:56:31] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DatabaseAccess.select(String sql, Dictionary`2 dict) in c:\inetpub\wwwroot\App_Code\Utility\DatabaseAccess.cs:line 111
+   at File.UploadFile(FileInfo fileInfo, List`1 directories, Byte[] fileContent) in c:\inetpub\wwwroot\App_Code\File.cs:line 147
+   at AjaxService.uploadFile() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 686
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 242
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-07 10:56:41] [Exception]: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at User.sendMail(SuggestionInfo info) in c:\inetpub\wwwroot\App_Code\User.cs:line 500
+   at User.commitSuggestion(SuggestionInfo info) in c:\inetpub\wwwroot\App_Code\User.cs:line 470
+   at AjaxService.commitSuggestion() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 859
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 65
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-07 10:56:49] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DatabaseAccess.select(String sql, Dictionary`2 dict) in c:\inetpub\wwwroot\App_Code\Utility\DatabaseAccess.cs:line 111
+   at File.UploadFile(FileInfo fileInfo, List`1 directories, Byte[] fileContent) in c:\inetpub\wwwroot\App_Code\File.cs:line 147
+   at AjaxService.uploadFile() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 686
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 242
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-07 10:58:54] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DatabaseAccess.select(String sql, Dictionary`2 dict) in c:\inetpub\wwwroot\App_Code\Utility\DatabaseAccess.cs:line 111
+   at File.UploadFile(FileInfo fileInfo, List`1 directories, Byte[] fileContent) in c:\inetpub\wwwroot\App_Code\File.cs:line 147
+   at AjaxService.uploadFile() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 686
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 242
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-07 10:59:12] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DatabaseAccess.select(String sql, Dictionary`2 dict) in c:\inetpub\wwwroot\App_Code\Utility\DatabaseAccess.cs:line 111
+   at File.UploadFile(FileInfo fileInfo, List`1 directories, Byte[] fileContent) in c:\inetpub\wwwroot\App_Code\File.cs:line 147
+   at AjaxService.uploadFile() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 686
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 242
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-07 10:59:21] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DatabaseAccess.select(String sql, Dictionary`2 dict) in c:\inetpub\wwwroot\App_Code\Utility\DatabaseAccess.cs:line 111
+   at File.UploadFile(FileInfo fileInfo, List`1 directories, Byte[] fileContent) in c:\inetpub\wwwroot\App_Code\File.cs:line 147
+   at AjaxService.uploadFile() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 686
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 242
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-07 10:59:47] [Exception]: String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DatabaseAccess.select(String sql, Dictionary`2 dict) in c:\inetpub\wwwroot\App_Code\Utility\DatabaseAccess.cs:line 111
+   at File.UploadFile(FileInfo fileInfo, List`1 directories, Byte[] fileContent) in c:\inetpub\wwwroot\App_Code\File.cs:line 147
+   at AjaxService.uploadFile() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 686
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 242
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-07 11:08:05] [Exception]: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at User.sendMail(SuggestionInfo info) in c:\inetpub\wwwroot\App_Code\User.cs:line 500
+   at User.commitSuggestion(SuggestionInfo info) in c:\inetpub\wwwroot\App_Code\User.cs:line 470
+   at AjaxService.commitSuggestion() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 859
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 65
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-07 11:23:50] [Exception]: Object reference not set to an instance of an object.
+   at AjaxService.updateNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 590
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 239
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-07 11:26:01] [Exception]: Object reference not set to an instance of an object.
+   at AjaxService.updateNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 590
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 239
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-07 11:26:07] [Exception]: Object reference not set to an instance of an object.
+   at AjaxService.updateNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 590
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 239
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-07 11:26:39] [Exception]: Object reference not set to an instance of an object.
+   at AjaxService.updateNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 590
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 239
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-07 11:26:46] [Exception]: Object reference not set to an instance of an object.
+   at AjaxService.updateNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 590
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 239
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-07 11:27:02] [Exception]: Object reference not set to an instance of an object.
+   at AjaxService.updateNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 590
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 239
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-07 11:27:10] [Exception]: Object reference not set to an instance of an object.
+   at AjaxService.updateNews() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 590
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 239
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
