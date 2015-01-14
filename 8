@@ -1,0 +1,86 @@
+[2014-10-31 16:59:51] [Exception]: The remote certificate is invalid according to the validation procedure.
+   at System.Net.Security.SslState.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, Exception exception)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   at System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Mail.SmtpConnection.Flush()
+   at System.Net.Mail.ReadLinesCommand.Send(SmtpConnection conn)
+   at System.Net.Mail.SmtpConnection.GetConnection(String host, Int32 port)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at User.sendMail(SuggestionInfo info) in c:\inetpub\wwwroot\App_Code\User.cs:line 524
+   at User.commitSuggestion(SuggestionInfo info) in c:\inetpub\wwwroot\App_Code\User.cs:line 492
+   at AjaxService.commitSuggestion() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 1021
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 65
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-31 17:01:26] [Exception]: The remote certificate is invalid according to the validation procedure.
+   at System.Net.Security.SslState.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, Exception exception)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   at System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Mail.SmtpConnection.Flush()
+   at System.Net.Mail.ReadLinesCommand.Send(SmtpConnection conn)
+   at System.Net.Mail.SmtpConnection.GetConnection(String host, Int32 port)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at User.sendMail(SuggestionInfo info) in c:\inetpub\wwwroot\App_Code\User.cs:line 524
+   at User.commitSuggestion(SuggestionInfo info) in c:\inetpub\wwwroot\App_Code\User.cs:line 492
+   at AjaxService.commitSuggestion() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 1021
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 65
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-31 17:07:14] [Exception]: Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at User.sendMail(SuggestionInfo info) in c:\inetpub\wwwroot\App_Code\User.cs:line 525
+   at User.commitSuggestion(SuggestionInfo info) in c:\inetpub\wwwroot\App_Code\User.cs:line 492
+   at AjaxService.commitSuggestion() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 1021
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 65
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-31 17:13:11] [Exception]: Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at User.sendMail(SuggestionInfo info) in c:\inetpub\wwwroot\App_Code\User.cs:line 525
+   at User.commitSuggestion(SuggestionInfo info) in c:\inetpub\wwwroot\App_Code\User.cs:line 492
+   at AjaxService.commitSuggestion() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 1021
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 65
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-31 17:16:20] [Exception]: Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at User.sendMail(SuggestionInfo info) in c:\inetpub\wwwroot\App_Code\User.cs:line 525
+   at User.commitSuggestion(SuggestionInfo info) in c:\inetpub\wwwroot\App_Code\User.cs:line 492
+   at AjaxService.commitSuggestion() in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 1021
+   at AjaxService.getResult(String action) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 65
+   at AjaxService.Page_Load(Object sender, EventArgs e) in c:\inetpub\wwwroot\Service\AjaxService.aspx.cs:line 17
+[2014-10-31 17:52:05] [Exception]:    at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindAll()
+   at AccessControlModule.getADInfo(String loginName, String sid, String& email, String& fullName) in c:\inetpub\wwwroot\App_Code\HttpModule\AccessControlModule.cs:line 42
+[2014-10-31 18:13:15] [Exception]:    at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindAll()
+   at AccessControlModule.getADInfo(String loginName, String sid, String& email, String& fullName) in c:\inetpub\wwwroot\App_Code\HttpModule\AccessControlModule.cs:line 42
